@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F0FFF0;
+
+}
+
+.hero{
+    padding-top: 30px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 72px;
+    height: 59px;
+}
+.logo h3{
+    width: 118.071px;
+    height: 29px;
+    color: #56548C;
+    font-family: Rubik;
+    font-size: 24.857px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 48px;
+
+}
+
+
+.links a{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: block;
+
+}
+#nav-button{
+    color:#FFFFFF;
+    padding: 12px 28px;
+    border-radius: 33px;
+    background: #21B573;
+}
+#nav-button:hover{
+    background: cornflowerblue;
+    color: rgb(173, 171, 168);
+    transition: 0.9s;
+}
+
+p::selection{
+    color:aquamarine;
+    background: #56548C;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.container-text{
+    width: 90%;
+}
+.text1{
+    color:#FD511A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 145.833% */
+}
+
+.text3{
+    color: #6C6B6B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 225% */
+    width: 403px;
+    height: 85px;
+}
+.universal-button{
+    display: inline-flex;
+    padding: 12px 36px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 33px;
+    background: #21B573;
+    border: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor:pointer;
+}
+
+.links ul ul a{
+    display: flex;
+    flex-direction: column;
+}
+
+#hero-img{
+    width: 100%;
+}
+.sec2-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: 370px;
+    height: 483px;
+    padding: 20px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.card-img{
+    width: 331px;
+    height: 234px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: 50% / cover no-repeat;
+}
+.card-heading{
+    color: #413960;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.card-text{
+    color: #585859;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+#section2{
+    padding-top: 30px;
+    padding-left: 135px;
+    padding-right: 135px;
+    
+}
+section{
+    background: #FFF;
+}
+
+.section2-head-text{
+    text-align: center;
+    color: #413960;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1em;
+}
+.all-course-btn{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50%;
+}
+
+
+#testimonial-img{
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 120px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+}
+#testimonial-text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.testimonial-container{
+    display: flex;
+    align-items: center;
+}
